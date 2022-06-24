@@ -1,13 +1,13 @@
 {
   "name": "@nirpg63/ui-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "repository": "https://github.com/nirupg63/ui-monorepo",
   "publishConfig": {
     "@nirupg63:registry": "https://npm.pkg.github.com/nirpg63"
- },
+  },
   "scripts": {
     "start": "start-storybook -p 6006 -s public",
     "build": "rollup -c",
